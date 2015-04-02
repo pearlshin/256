@@ -1,3 +1,3 @@
 $(document).ready(function() {
-  game = new Game();
+  game = new Game("0000202000000000");
 });
