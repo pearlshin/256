@@ -1,5 +1,33 @@
 #board {
-  width: 80%;
-  height:80%;
+  width: 648px;
+  height: 600px;
+  border: 3px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+.cell {
+  width: 160px;
+  height: 148px;
   border: 1px solid black;
+  float:left;
 }
